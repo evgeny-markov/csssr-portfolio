@@ -1,0 +1,139 @@
+main
+    .print
+        img(src="resources/print.png", alt="Секретно")
+    .logo
+        img(src="resources/logo.png", alt="CSSSR")
+    .job
+        img(src="resources/job.png", alt="Дело")
+    .list-title
+        .title
+            .name
+                p Полное ФИО
+            .description#name
+                p 
+        .title
+            .name
+                p Год рождения
+            .description#year
+                p 
+        .title
+            .name
+                p Место жительства
+            .description#point
+                p 
+        .title
+            .name
+                p Скайп
+            .description#skype
+                p 
+        .title
+            .name
+                p Почта
+            .description#mail
+                p 
+    .about
+        h4 Расскажите о себе чекбоксами
+        p Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Кстати, отсутствие опыта не означает, что у вас меньше шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.
+    .about-chekbox
+        .checkbox
+            input#checkbox-1(type="checkbox" checked)
+            label(for="checkbox-1") БЭМ/OOCSS
+        .checkbox
+            input#checkbox-2(type="checkbox" checked)
+            label(for="checkbox-2") Pug (Jade)
+        .checkbox
+            input#checkbox-3(type="checkbox" checked)
+            label(for="checkbox-3") Stylus/LESS/SASS
+        .checkbox
+            input#checkbox-4(type="checkbox" checked)
+            label(for="checkbox-4") Работаю с SVG
+        .checkbox
+            input#checkbox-5(type="checkbox" checked)
+            label(for="checkbox-5") Верстаю семантично
+        .checkbox
+            input#checkbox-6(type="checkbox")
+            label(for="checkbox-6") Accessibility (A11Y)
+        .checkbox
+            input#checkbox-7(type="checkbox" checked)
+            label(for="checkbox-7") ES2015/ES2016
+        .checkbox
+            input#checkbox-8(type="checkbox" checked)
+            label(for="checkbox-8") Gulp/GRUNT
+        .checkbox
+            input#checkbox-9(type="checkbox" checked)
+            label(for="checkbox-9") Webpack
+        .checkbox
+            input#checkbox-10(type="checkbox" )
+            label(for="checkbox-10") Дружу с WebGL
+        .checkbox
+            input#checkbox-11(type="checkbox"  checked)
+            label(for="checkbox-11") jQuery
+        .checkbox
+            input#checkbox-12(type="checkbox" )
+            label(for="checkbox-12") Знаю/изучаю Angular
+        .checkbox
+            input#checkbox-13(type="checkbox" )
+            label(for="checkbox-13") Знаю/изучаю React
+        .checkbox
+            input#checkbox-14(type="checkbox" )
+            label(for="checkbox-14") Знаю/изучаю Node.js
+        .checkbox
+            input#checkbox-15(type="checkbox"  checked)
+            label(for="checkbox-15") Использую Git
+        .checkbox
+            input#checkbox-16(type="checkbox"  checked)
+            label(for="checkbox-16") С глазомером всё ок
+        .checkbox
+            input#checkbox-17(type="checkbox" )
+            label(for="checkbox-17") Читаю 
+                a(href="http://blog.csssr.ru") blog.csssr.ru
+        .checkbox
+            input#checkbox-18(type="checkbox" )
+            label(for="checkbox-18") Я ленивый(-ая)
+        .checkbox
+            input#checkbox-19(type="checkbox" )
+            label(for="checkbox-19") У меня хороший английский
+    .javascript
+        h4 Уровень владения JavaScript
+    .javascript-slider
+        .slider#slider-range-max
+        .slider__content
+            span Не владею
+            span Использую готовые решения
+            span Использую готовые решения <br> и умею их переделывать
+            span Пишу сложный JS с нуля
+    .about
+        h4 Расскажите о себе словами
+        p Напишите пару предложений, чем вас привлекла наша вакансия и чего вы ожидаете от работы в CSSSR. Кстати, будет здорово, если при нехватке места для текста строки будут добавляться автоматически.
+    .about-list
+        .list
+            p Вакансия привлекла подходом к соискателям.
+        .list
+            p Ожидания роста как фронтенд разработчика.
+        .list
+            p Добавил эффект печатной машинки кнопой "П".
+    .plans
+        h4 Какие у вас планы на будущее?
+        p Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.
+    .plans-radio
+        .radio
+            input#radio-1(type="radio" name="ratio")
+            label(for="radio-1") Верстать
+        .radio
+            input#radio-2(type="radio" name="ratio" checked)
+            label(for="radio-2") Прокачаться в JS
+        .radio
+            input#radio-3(type="radio" name="ratio")
+            label(for="radio-3") Менеджерство
+        .radio
+            input#radio-4(type="radio" name="ratio")
+            label(for="radio-4") Другое
+    .date
+        .name
+            h4 Дата заполнения
+        .description
+            p 01.08.2019
+    button.btn П
+        span Печать
+audio.key(src="resources/key.wav")
+audio.switch(src="resources/switch.wav")

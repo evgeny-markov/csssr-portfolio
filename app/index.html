@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <link href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;display=swap" rel="stylesheet"/>
+  <title>Portfolio</title>
+</head>
+<body>
+  <main>
+    <div class="print"><img src="resources/print.png" alt="Секретно"/></div>
+    <div class="logo"><img src="resources/logo.png" alt="CSSSR"/></div>
+    <div class="job"><img src="resources/job.png" alt="Дело"/></div>
+    <div class="list-title">
+      <div class="title">
+        <div class="name">
+          <p>Полное ФИО</p>
+        </div>
+        <div class="description" id="name">
+          <p> </p>
+        </div>
+      </div>
+      <div class="title">
+        <div class="name">
+          <p>Год рождения</p>
+        </div>
+        <div class="description" id="year">
+          <p> </p>
+        </div>
+      </div>
+      <div class="title">
+        <div class="name">
+          <p>Место жительства</p>
+        </div>
+        <div class="description" id="point">
+          <p> </p>
+        </div>
+      </div>
+      <div class="title">
+        <div class="name">
+          <p>Скайп</p>
+        </div>
+        <div class="description" id="skype">
+          <p> </p>
+        </div>
+      </div>
+      <div class="title">
+        <div class="name">
+          <p>Почта</p>
+        </div>
+        <div class="description" id="mail">
+          <p> </p>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <h4>Расскажите о себе чекбоксами</h4>
+      <p>Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Кстати, отсутствие опыта не означает, что у вас меньше шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.</p>
+    </div>
+    <div class="about-chekbox">
+      <div class="checkbox">
+        <input id="checkbox-1" type="checkbox" checked="checked"/>
+        <label for="checkbox-1">БЭМ/OOCSS</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-2" type="checkbox" checked="checked"/>
+        <label for="checkbox-2">Pug (Jade)</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-3" type="checkbox" checked="checked"/>
+        <label for="checkbox-3">Stylus/LESS/SASS</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-4" type="checkbox" checked="checked"/>
+        <label for="checkbox-4">Работаю с SVG</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-5" type="checkbox" checked="checked"/>
+        <label for="checkbox-5">Верстаю семантично</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-6" type="checkbox"/>
+        <label for="checkbox-6">Accessibility (A11Y)</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-7" type="checkbox" checked="checked"/>
+        <label for="checkbox-7">ES2015/ES2016</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-8" type="checkbox" checked="checked"/>
+        <label for="checkbox-8">Gulp/GRUNT</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-9" type="checkbox" checked="checked"/>
+        <label for="checkbox-9">Webpack</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-10" type="checkbox"/>
+        <label for="checkbox-10">Дружу с WebGL</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-11" type="checkbox" checked="checked"/>
+        <label for="checkbox-11">jQuery</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-12" type="checkbox"/>
+        <label for="checkbox-12">Знаю/изучаю Angular</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-13" type="checkbox"/>
+        <label for="checkbox-13">Знаю/изучаю React</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-14" type="checkbox"/>
+        <label for="checkbox-14">Знаю/изучаю Node.js</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-15" type="checkbox" checked="checked"/>
+        <label for="checkbox-15">Использую Git</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-16" type="checkbox" checked="checked"/>
+        <label for="checkbox-16">С глазомером всё ок</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-17" type="checkbox"/>
+        <label for="checkbox-17">Читаю <a href="http://blog.csssr.ru">blog.csssr.ru</a></label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-18" type="checkbox"/>
+        <label for="checkbox-18">Я ленивый(-ая)</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox-19" type="checkbox"/>
+        <label for="checkbox-19">У меня хороший английский</label>
+      </div>
+    </div>
+    <div class="javascript">
+      <h4>Уровень владения JavaScript</h4>
+    </div>
+    <div class="javascript-slider">
+      <div class="slider" id="slider-range-max"></div>
+      <div class="slider__content"><span>Не владею</span><span>Использую готовые решения</span><span>Использую готовые решения <br> и умею их переделывать</span><span>Пишу сложный JS с нуля</span></div>
+    </div>
+    <div class="about">
+      <h4>Расскажите о себе словами</h4>
+      <p>Напишите пару предложений, чем вас привлекла наша вакансия и чего вы ожидаете от работы в CSSSR. Кстати, будет здорово, если при нехватке места для текста строки будут добавляться автоматически.</p>
+    </div>
+    <div class="about-list">
+      <div class="list">
+        <p>Вакансия привлекла подходом к соискателям.</p>
+      </div>
+      <div class="list">
+        <p>Ожидания роста как фронтенд разработчика.</p>
+      </div>
+      <div class="list">
+        <p>Добавил эффект печатной машинки кнопой "П".</p>
+      </div>
+    </div>
+    <div class="plans">
+      <h4>Какие у вас планы на будущее?</h4>
+      <p>Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.</p>
+    </div>
+    <div class="plans-radio">
+      <div class="radio">
+        <input id="radio-1" type="radio" name="ratio"/>
+        <label for="radio-1">Верстать</label>
+      </div>
+      <div class="radio">
+        <input id="radio-2" type="radio" name="ratio" checked="checked"/>
+        <label for="radio-2">Прокачаться в JS</label>
+      </div>
+      <div class="radio">
+        <input id="radio-3" type="radio" name="ratio"/>
+        <label for="radio-3">Менеджерство</label>
+      </div>
+      <div class="radio">
+        <input id="radio-4" type="radio" name="ratio"/>
+        <label for="radio-4">Другое</label>
+      </div>
+    </div>
+    <div class="date">
+      <div class="name">
+        <h4>Дата заполнения</h4>
+      </div>
+      <div class="description">
+        <p>01.08.2019</p>
+      </div>
+    </div>
+    <button class="btn">П<span>Печать</span></button>
+  </main>
+  <audio class="key" src="resources/key.wav"></audio>
+  <audio class="switch" src="resources/switch.wav"></audio>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/main.js"></script>
